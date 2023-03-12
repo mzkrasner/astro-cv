@@ -12,8 +12,8 @@ import {
 
 import { CTA } from '@/partials/CTA';
 import Base from '@/templates/Base.astro';
-import { AppConfig } from '@/utils/AppConfig';
 import { sortByDate } from '@/utils/Posts';
+import { SiteConfig } from '@/utils/SiteConfig';
 
 type GetStaticPaths = {
   paginate: any;
@@ -32,7 +32,7 @@ interface Props {
 }
 
 const { page } = Astro.props as Props;
-const titleSuffix = ` - ${AppConfig.site_name}`;
+const titleSuffix = ` - ${SiteConfig.site_name}`;
 const titleBase = `Blog page ${page.currentPage}`;
 const title = titleBase + titleSuffix;
 const description =

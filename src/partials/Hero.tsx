@@ -1,35 +1,30 @@
-import {
-  GradientText,
-  HeroAvatar,
-  HeroSocial,
-  Section,
-} from 'astro-boilerplate-components';
+import { HeroAvatar, HeroSocial, Section } from 'astro-boilerplate-components';
+
+import { GradientText } from './GradientText';
 
 const Hero = () => (
   <Section>
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Hi there, I'm <GradientText>Mark</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
-          </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          I'm a software engineer with experience in fullstack{' '}
+          <a className="text-emerald-400 ">Javascript & Typescript</a>{' '}
+          development, with a passion for distributed system design. Current
+          engineer on <a className="text-emerald-400 ">xkite</a> , a
+          comprehensive prototyping, testing, and monitoring suite for Apache
+          Kafka.
         </>
       }
       avatar={
         <img
-          className="h-80 w-64"
-          src="/assets/images/avatar.svg"
+          // eslint-disable-next-line tailwindcss/no-custom-classname
+          className="h-100 w-80"
+          src="/assets/images/avatar2.svg"
           alt="Avatar image"
           loading="lazy"
         />
@@ -37,28 +32,10 @@ const Hero = () => (
       socialButtons={
         <>
           <a href="/">
-            <HeroSocial
-              src="/assets/images/twitter-icon.png"
-              alt="Twitter icon"
-            />
+            <HeroSocial src="/assets/images/github.png" alt="Github icon" />
           </a>
           <a href="/">
-            <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/linkedin-icon.png"
-              alt="Linkedin icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/youtube-icon.png"
-              alt="Youtube icon"
-            />
+            <HeroSocial src="/assets/images/linkedin.png" alt="linkedIn icon" />
           </a>
         </>
       }

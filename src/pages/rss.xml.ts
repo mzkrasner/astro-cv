@@ -1,13 +1,13 @@
 import rss from '@astrojs/rss';
 
-import { AppConfig } from '@/utils/AppConfig';
+import { SiteConfig } from '@/utils/SiteConfig';
 
 export const get = () =>
   rss({
     // `<title>` field in output xml
-    title: AppConfig.title,
+    title: SiteConfig.title,
     // `<description>` field in output xml
-    description: AppConfig.description,
+    description: SiteConfig.description,
     // base URL for RSS <item> links
     // SITE will use "site" from your project's astro.config.
     site: import.meta.env.SITE,

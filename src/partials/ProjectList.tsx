@@ -1,66 +1,73 @@
 import {
   ColorTags,
-  GradientText,
   Project,
   Section,
   Tags,
 } from 'astro-boilerplate-components';
 
+import { GradientText } from './GradientText';
+
 const ProjectList = () => (
   <Section
     title={
       <>
-        Recent <GradientText>Projects</GradientText>
+        Recent <GradientText>Work</GradientText>
       </>
     }
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Project 1"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        name="xkite"
+        description="A comprehensive prototyping, monitoring, and testing suite built for Apache Kafka. Built for minimal developer dependencies
+        and highly flexible configuration options to bootstrap your next microservices product."
         link="/"
         img={{
-          src: '/assets/images/project-web-design.png',
-          alt: 'Project Web Design',
+          src: '/assets/images/xkite2.png',
+          alt: 'xkite kafka prototyping',
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
-            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
+            <Tags color={ColorTags.FUCHSIA}>React.js</Tags>
+            <Tags color={ColorTags.LIME}>Next.js</Tags>
+            <Tags color={ColorTags.EMERALD}>Material UI</Tags>
             <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.AMBER}>Kafka</Tags>
+            <Tags color={ColorTags.BLUE}>Docker</Tags>
+            <Tags color={ColorTags.PINK}>Spring Boot</Tags>
           </>
         }
       />
       <Project
-        name="Project 2"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        name="Amongus AI"
+        description="A realtime chat application with AI-powered chat participants. Can you guess who's human and who's not?"
         link="/"
-        img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
+        img={{ src: '/assets/images/open-source.png', alt: 'Open source' }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
-            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+            <Tags color={ColorTags.FUCHSIA}>React.js</Tags>
+            <Tags color={ColorTags.LIME}>Websockets</Tags>
+            <Tags color={ColorTags.EMERALD}>Bootstrap</Tags>
+            <Tags color={ColorTags.ROSE}>JavaScript</Tags>
+            <Tags color={ColorTags.AMBER}>PostgreSQL</Tags>
+            <Tags color={ColorTags.BLUE}>Webpack</Tags>
+            <Tags color={ColorTags.PINK}>Express.js</Tags>
           </>
         }
       />
       <Project
-        name="Project 3"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        name="ONUS"
+        description="An open-sourced & free project management fullstack framework. "
         link="/"
-        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
+        img={{ src: '/assets/images/open-source.png', alt: 'Open source' }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.FUCHSIA}>React.js</Tags>
+            <Tags color={ColorTags.EMERALD}>Bootstrap</Tags>
+            <Tags color={ColorTags.ROSE}>JavaScript</Tags>
+            <Tags color={ColorTags.AMBER}>PostgreSQL</Tags>
+            <Tags color={ColorTags.LIME}>MongoDB</Tags>
+            <Tags color={ColorTags.BLUE}>Webpack</Tags>
+            <Tags color={ColorTags.PINK}>Express.js</Tags>
           </>
         }
       />
