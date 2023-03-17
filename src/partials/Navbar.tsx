@@ -20,9 +20,11 @@ const Navbar = () => (
       </a>
 
       <NavMenu>
-        <NavMenuItem href="/posts">Blogs</NavMenuItem>
-        <NavMenuItem href="/">GitHub</NavMenuItem>
-        <NavMenuItem href="/">Twitter</NavMenuItem>
+        {/* <NavMenuItem href="/posts">Blogs</NavMenuItem> */}
+        <NavMenuItem href="https://github.com/mzkrasner/">GitHub</NavMenuItem>
+        <NavMenuItem href="https://www.linkedin.com/in/krasnermark/">
+          LinkedIn
+        </NavMenuItem>
       </NavMenu>
     </NavbarTwoColumns>
   </Section>
