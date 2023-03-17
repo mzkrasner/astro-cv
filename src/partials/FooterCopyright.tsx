@@ -6,7 +6,7 @@ type IFooterCopyrightProps = {
 const FooterCopyright = (_props: IFooterCopyrightProps) => (
   <div className="border-t border-gray-600 pt-5">
     <div className="text-sm text-gray-200">
-      Built with Astro, Typescript, & Tailwind
+      Built with Astro, React, TypeScript, & Tailwind
     </div>
   </div>
 );
