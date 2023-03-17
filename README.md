@@ -1,6 +1,6 @@
 # Overview
 
-Lorem ipsum
+A fun personal CV created based off of [dd](http://localhost:3000) https://github.com/ixartz/astro-boilerplate-components 
 
 ## Section one
 
