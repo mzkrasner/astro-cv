@@ -15,9 +15,12 @@ const Hero = () => (
           I'm a software engineer with experience in fullstack{' '}
           <a className="text-emerald-400 ">JavaScript & TypeScript</a>{' '}
           development, with a passion for distributed system design. Current
-          engineer at <a className="text-emerald-400 ">xkite</a> , a
-          comprehensive prototyping, testing, and monitoring suite for Apache
-          Kafka.
+          engineer at{' '}
+          <a className="text-emerald-400 " href="https://xkite.io/">
+            xkite
+          </a>{' '}
+          , a comprehensive prototyping, testing, and monitoring suite for
+          Apache Kafka.
         </>
       }
       avatar={
