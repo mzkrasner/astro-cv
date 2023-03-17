@@ -1,35 +1,10 @@
 # Overview
 
-A fun personal CV created based off of [dd](http://localhost:3000) https://github.com/ixartz/astro-boilerplate-components 
+A fun personal CV created based off of [Astro Boilerplate](https://github.com/ixartz/astro-boilerplate-components ) components library.
 
-## Section one
+## Getting started
 
-A complete list of items:
-
-- Something one
-- Something two
-
-Developer experience first:
-
-- Something one
-- Something two
-
-### Section two
-
-- Item one
-- Item two
-
-### Requirements
-
-- Tags here
-
-#### Optional
-
-Lorem ipsum
-
-### Getting started
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum. Nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.
+Navigate to the components library linked to above, or feel free to clone this repository to create your own CV using the directions below:
 
 ``` bash
 git clone --depth=1 <something>
