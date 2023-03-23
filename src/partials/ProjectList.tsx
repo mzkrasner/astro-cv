@@ -44,7 +44,7 @@ const ProjectList = () => (
           name="weShoutz"
           description="A gated message board to enable classmates, intructors, teammates, or project collaborators to share shout-outs and public acknowledgements."
           link="/"
-          img={{ src: '/assets/images/open-source.png', alt: 'Open source' }}
+          img={{ src: '/assets/images/shoutz.png', alt: 'Open source' }}
           category={
             <div
               style={{
