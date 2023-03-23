@@ -41,6 +41,29 @@ const ProjectList = () => (
           }
         />
         <Project
+          name="weShoutz"
+          description="A gated message board to enable classmates, intructors, teammates, or project collaborators to share shout-outs and public acknowledgements."
+          link="/"
+          img={{ src: '/assets/images/open-source.png', alt: 'Open source' }}
+          category={
+            <div
+              style={{
+                display: 'flex',
+                flexDirection: 'row',
+                flexWrap: 'wrap',
+              }}
+            >
+              <Tags color={ColorTags.FUCHSIA}>React.js</Tags>
+              <Tags color={ColorTags.LIME}>Next.js</Tags>
+              <Tags color={ColorTags.EMERALD}>Tailwind</Tags>
+              <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+              <Tags color={ColorTags.AMBER}>Prisma ORM</Tags>
+              <Tags color={ColorTags.BLUE}>NextAuth</Tags>
+              <Tags color={ColorTags.PINK}>tRPC</Tags>
+            </div>
+          }
+        />
+        <Project
           name="Amongus AI"
           description="A realtime chat application with AI-powered chat participants. Can you guess who's human and who's not?"
           link="/"
