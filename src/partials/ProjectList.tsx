@@ -141,6 +141,36 @@ const ProjectList = () => (
         />
       </div>
     </Section>
+    <Section
+      title={
+        <>
+          <GradientText>Talks</GradientText>
+        </>
+      }
+    >
+      <div className="flex flex-col gap-6">
+        <Project
+          name="What are Message Brokers and How do they Work?"
+          description="I had the opportunity to present an overview to message brokers. I addressed topics related to how 
+          message brokers work, different data models pertaining to message brokers, ideal use cases, and key differences compared 
+          to other messaging technologies."
+          link="https://youtu.be/eR2R0XAnKHk"
+          img={{
+            src: '/assets/images/youtube.png',
+            alt: 'xkite kafka prototyping',
+          }}
+          category={
+            <div
+              style={{
+                display: 'flex',
+                flexDirection: 'row',
+                flexWrap: 'wrap',
+              }}
+            ></div>
+          }
+        />
+      </div>
+    </Section>
   </>
 );
 
