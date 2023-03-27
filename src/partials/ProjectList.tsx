@@ -121,8 +121,8 @@ const ProjectList = () => (
       <div className="flex flex-col gap-6">
         <Project
           name="xkite makes it easy to prototype, test and deploy Apache Kafka"
-          description="Explore an overview of our public beta release! Learn about our core features
-          and, functionalities, and our three-pronged approach to make it easier for development teams
+          description="Explore an overview of our public beta release! Learn about our core features, 
+          functionalities, and our three-pronged approach to make it easier for development teams
           to work with Apache Kafka. "
           link="https://medium.com/@xkite/xkite-makes-it-easy-to-prototype-test-and-deploy-apache-kafka-15519ba67be7"
           img={{
